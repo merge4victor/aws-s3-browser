@@ -9,6 +9,7 @@ import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
 import { Authenticator } from '@aws-amplify/ui-react';
 import { StorageBrowser } from '../components/StorageBrowser';
+import { Authenticator } from '@aws-amplify/ui-react';
 
 Amplify.configure(outputs);
 
